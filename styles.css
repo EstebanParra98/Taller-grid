@@ -1,0 +1,43 @@
+*{
+    background-color: #8bf7ff;
+
+    body {
+        
+        font-family: Arial, sans-serif;
+    }
+.container{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+       
+    }
+    .img{
+    width: 100px;
+        height: 100px;
+        background-color: aqua;
+    }
+
+@media (max-width: 700px){
+    .container{
+        
+        background-image: linear-gradient(90deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%);
+
+    }
+
+    h1{
+        font-size: 15px;
+        color: rgb(20, 35, 79);
+    }
+ 
+  
+ 
+  header {
+    background-color: #333;
+    color: #fff;
+    
+  }
+ 
+  
+  }
+}
